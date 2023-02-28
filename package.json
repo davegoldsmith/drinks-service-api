@@ -2,8 +2,9 @@
   "name": "drink-service-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.ts",
   "scripts": {
+    "start" : "nodemon src/server.ts",
     "test": "jest"
   },
   "keywords": [],
