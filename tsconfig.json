@@ -1,6 +1,10 @@
 {
-  "include": ["./src/**/*"],
-  "exclude": ["node_modules"],
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
   "compilerOptions": {
     "strict": true /* Enable all strict type-checking options. */,
     "target": "ES2022",
@@ -8,9 +12,9 @@
     "moduleResolution": "node",
     "rootDir": "./src",
     "outDir": "./build",
-    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
-    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
   },
   "ts-node": {
     /* these settings ensure compatibility with ES6 import/export */
